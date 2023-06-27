@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+	background: #1d212b;
+	background: #8daaa1;
+	background: #003d2a;
+	background: #74aaa9;
+	background: #031849;
+	background: #c27575;
+	background: #36454f;
+	background: #86a8fe;
+	background: #7483aa;
+	background: #438471;
+	background: #4e525e;
+	background: #d3d3d3;
+	color: black;
+	font-family: 'Caladea', serif;
+}
+
+.effect-logo-1d212b{
+border-radius: 10px;
+background: #1d212b;
+box-shadow:  -5px -5px 10px #191d25,
+             5px 5px 10px #212531;
+}
+.effect-before-1d212b{
+border-radius: 10px;
+background: linear-gradient(330deg, #1f232e, #1a1e27);
+box-shadow:  -5px -5px 10px #191d25,
+             5px 5px 10px #212531;
+}
+.effect-after-1d212b{
+border-radius: 10px;
+background: linear-gradient(330deg, #1a1e27, #1f232e);
+box-shadow:  -5px -5px 10px #191d25,
+             5px 5px 10px #212531;
+}
+.effect-logo-7483aa{
+background: #7483aa;
+box-shadow:  -5px -5px 10px #657294,
+             5px 5px 10px #8394c0;
+}
+.effect-before-7483aa{
+background: linear-gradient(315deg, #7c8cb6, #687699);
+box-shadow:  -5px -5px 10px #657294,
+             5px 5px 10px #8394c0;
+}
+.effect-after-7483aa{
+background: linear-gradient(315deg, #687699, #7c8cb6);
+box-shadow:  -5px -5px 10px #657294,
+             5px 5px 10px #8394c0;
+}
+.effect-logo{
+background: #d3d3d3;
+box-shadow:  -5px -5px 10px #b8b8b8,
+             5px 5px 10px #eeeeee;
+}
+.effect-before{
+background: linear-gradient(315deg, #e2e2e2, #bebebe);
+box-shadow:  -5px -5px 10px #b8b8b8,
+             5px 5px 10px #eeeeee;
+}
+.effect-after{
+background: linear-gradient(315deg, #bebebe, #e2e2e2);
+box-shadow:  -5px -5px 10px #b8b8b8,
+             5px 5px 10px #eeeeee;
+}
