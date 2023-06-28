@@ -66,3 +66,31 @@ background: linear-gradient(315deg, #bebebe, #e2e2e2);
 box-shadow:  -5px -5px 10px #b8b8b8,
              5px 5px 10px #eeeeee;
 }
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-450%);
+  }
+}
+
+.animation-scroll {
+  animation: scroll 10s linear infinite;
+}
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.flicker-animation {
+  animation: flicker 1.5s infinite;
+}
+
