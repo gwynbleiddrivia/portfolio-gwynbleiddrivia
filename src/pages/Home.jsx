@@ -1,5 +1,7 @@
 import GitHubCalendar from 'react-github-calendar';
 import DisplayProjects from '../homePages/DisplayProjects'
+import SkillShowcase from '../homePages/SkillShowcase'
+
 
 const Home = () => {
 	const selectLastHalfYear = contributions => {
@@ -28,7 +30,8 @@ const Home = () => {
 								<GitHubCalendar hideTotalCount hideColorLegend username="gwynbleiddrivia" colorScheme='light' blockRadius='3' labels="My Github calendar" transformData={selectLastHalfYear}/>
 								<p className="font-sm effect-logo w-fit mx-auto m-1 p-1 rounded-lg">Github Contributions</p>
 							</div>
-							<img className="flicker-animation w-2/5 mx-auto effect-logo rounded-lg" src="https://i.ibb.co/hFrSbQ6/wordcloud-1.png" alt=""/>
+							{/*<img className="flicker-animation w-2/5 mx-auto effect-logo rounded-lg" src="https://i.ibb.co/hFrSbQ6/wordcloud-1.png" alt=""/>*/}
+							<SkillShowcase></SkillShowcase>
 						</div>
 						<div className="flex flex-col">
 						<DisplayProjects></DisplayProjects>

@@ -1,29 +1,59 @@
+import { Link } from 'react-router-dom'
 
 const DisplayProjects = () => {
 	return (
 		<div className="flex justify-between effect-logo rounded-lg p-2 gap-1">
-<div class="w-52 h-28 overflow-hidden shadow-md relative group rounded-lg effect-logo">
+<div class="w-64 h-28 overflow-hidden shadow-md relative group rounded-lg effect-logo">
   <div class="h-full animation-scroll">
     <img class="rounded-lg" src="https://i.ibb.co/j48xSfg/Labyrinth-Gaming.jpg" alt=""/>
   </div>
-  <div class="opacity-0 transition-opacity duration-300 absolute bg-[#d3d3d3] inset-0 flex justify-center items-center group-hover:opacity-100">
-    <button class="px-4 py-2 bg-blue-500 text-white rounded">Test</button>
-    <button class="px-4 py-2 bg-blue-500 text-white rounded">Test</button>
-  </div>
+  <div class="opacity-0 transition-opacity duration-300 absolute backdrop-blur bg-[#d3d3d3]/50 inset-0 flex gap-1 justify-center items-center group-hover:opacity-100 flex flex-col">
+    <p>Labyrinth Gaming</p>
+    <div className="flex">
+	 <Link to="https://github.com/gwynbleiddrivia/labyrinth-gaming-public-client/tree/main/labyrinth-gaming-client">  <small class="px-4 py-2 text-black underline rounded font-sm">Client Side Code</small> </Link>   
+    	<small class="px-4 py-2 text-black underline rounded font-sm">Server Side Code</small>
+    </div>
+    <div className="flex">
+	 <small class="px-4 py-2 text-black underline rounded font-sm">See Details</small>
+    	<small class="px-4 py-2 text-black underline rounded font-sm">Go to Live Site</small>
+    </div>
+     </div>
 </div>
 
+<div class="w-64 h-28 overflow-hidden shadow-md relative group rounded-lg effect-logo">
+  <div class="h-full animation-scroll">
+    <img class="rounded-lg" src="https://i.ibb.co/j48xSfg/Labyrinth-Gaming.jpg" alt=""/>
+  </div>
+  <div class="opacity-0 transition-opacity duration-300 absolute bg-[#d3d3d3] inset-0 flex gap-1 justify-center items-center group-hover:opacity-100 flex flex-col">
+    <p>Labyrinth Gaming</p>
+    <div className="flex">
+	 <small class="px-4 py-2 text-blue-500 rounded font-sm">Client Side Code</small>
+    	<small class="px-4 py-2 text-blue-500 rounded font-sm">Server Side Code</small>
+    </div>
+    <div className="flex">
+	 <small class="px-4 py-2 text-blue-500 rounded font-sm">See Details</small>
+    	<small class="px-4 py-2 text-blue-500 rounded font-sm">Go to Live Site</small>
+    </div>
+     </div>
+</div>
 
+<div class="w-64 h-28 overflow-hidden shadow-md relative group rounded-lg effect-logo">
+  <div class="h-full animation-scroll">
+    <img class="rounded-lg" src="https://i.ibb.co/j48xSfg/Labyrinth-Gaming.jpg" alt=""/>
+  </div>
+  <div class="opacity-0 transition-opacity duration-300 absolute bg-[#d3d3d3] inset-0 flex gap-1 justify-center items-center group-hover:opacity-100 flex flex-col">
+    <p>Labyrinth Gaming</p>
+    <div className="flex">
+	 <small class="px-4 py-2 text-blue-500 rounded font-sm">Client Side Code</small>
+    	<small class="px-4 py-2 text-blue-500 rounded font-sm">Server Side Code</small>
+    </div>
+    <div className="flex">
+	 <small class="px-4 py-2 text-blue-500 rounded font-sm">See Details</small>
+    	<small class="px-4 py-2 text-blue-500 rounded font-sm">Go to Live Site</small>
+    </div>
+     </div>
+</div>
 
-			<div className="relative w-52 h-28 overflow-hidden rounded-lg">
-			  <div className="absolute top-0 left-0 w-full h-full transition-transform duration-300 transform hover:scale-105 hover:overflow-y-scroll">
-			    <img className="rounded-lg" src="https://i.ibb.co/j48xSfg/Labyrinth-Gaming.jpg" alt=""/>
-			  </div>
-			</div>
-			<div className="relative w-52 h-28 overflow-hidden rounded-lg">
-			  <div className="absolute top-0 left-0 w-full h-full transition-transform duration-300 transform hover:scale-105 hover:overflow-y-scroll">
-			    <img className="rounded-lg" src="https://i.ibb.co/j48xSfg/Labyrinth-Gaming.jpg" alt=""/>
-			  </div>
-			</div>
 
 		</div>
 	);
