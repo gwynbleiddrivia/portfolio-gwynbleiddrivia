@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom'
 import Header from '../shared/Header'
+import Footer from '../shared/Footer'
 
 import { useCallback } from "react";
 import Particles from "react-particles";
@@ -60,19 +61,19 @@ const Main = () => {
                         distance: 150,
                         enable: true,
                         opacity: 0.5,
-                        width: 1,
+                        width: 0.2,
                     },
                     collisions: {
-                        enable: true,
+                        enable: false,
                     },
                     move: {
-                        direction: "bottom",
+                        direction: "none",
                         enable: true,
                         outModes: {
                             default: "bounce",
                         },
-                        random: false,
-                        speed: 6,
+                        random: true,
+                        speed: 2,
                         straight: false,
                     },
                     number: {
@@ -96,6 +97,7 @@ const Main = () => {
             }}
         />
 			<Outlet></Outlet>
+			<Footer></Footer>
 		</div>
 	);
 };

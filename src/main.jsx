@@ -12,6 +12,11 @@ import Home from './pages/Home'
 import Resume from './pages/Resume'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
+import BestProjects from './pages/BestProjects'
+import DetailsPro1 from './homePages/DetailsPro1'
+import DetailsPro2 from './homePages/DetailsPro2'
+import DetailsPro3 from './homePages/DetailsPro3'
+import Foo from './shared/Foo'
 
 const router = createBrowserRouter([
   {
@@ -33,7 +38,28 @@ const router = createBrowserRouter([
 	{
 		path: "/contact",
 		element: <Contact></Contact>
-	}
+	},
+	{
+		path: "/detpro1",
+		element: <DetailsPro1></DetailsPro1>
+	},
+	{
+		path: "/detpro2",
+		element: <DetailsPro2></DetailsPro2>
+	},
+	{
+		path: "/detpro3",
+		element: <DetailsPro3></DetailsPro3>
+	},
+	{
+		path: "/bestprojects",
+		element: <BestProjects></BestProjects>
+	},
+	{
+		path: "/foo",
+		element: <Foo></Foo>
+	},
+
     ]
   },
 ]);

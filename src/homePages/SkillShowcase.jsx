@@ -1,8 +1,8 @@
 
 const SkillShowcase = () => {
 	return (
-	<div className="flex flex-col justify-center boder border-[#d3d3d3] effect-logo p-1 rounded-lg h-fit">
-		<div className="grid grid-cols-8 p-2 rounded-lg justify-center">
+	<div className="w-full flex flex-col justify-center boder border-[#d3d3d3] effect-logo p-1 rounded-lg h-fit">
+		<div className="grid grid-cols-2 lg:grid-cols-8 p-2 rounded-lg justify-center">
 			<div className="animate-resize mx-auto flex flex-col rounded-lg justify-center w-full h-fit p-1">
 				<img className="mx-auto w-8 h-8 rounded-lg" src="https://i.ibb.co/HPDXpTX/js.png" alt=""/>
 				<small className="mx-auto">JavaScript</small>
